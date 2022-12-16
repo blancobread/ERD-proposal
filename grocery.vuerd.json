@@ -1,0 +1,503 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -142.8000034046174,
+    "scrollLeft": 0,
+    "zoomLevel": 0.8,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Stores",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "46bd0324-3381-4605-8f11-379b8fa40009"
+          },
+          {
+            "name": "grocery_name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 85.09716796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5418ac9e-4ebf-4252-b27e-06d54039ba8d"
+          },
+          {
+            "name": "store_name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 70.64990234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9ec43205-835e-48c1-ab79-511d100f2245"
+          },
+          {
+            "name": "grocery_price",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80.75537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c4f79377-9e30-4837-a2ea-c5193fc62be3"
+          },
+          {
+            "name": "grocery_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0438293d-da39-4cc1-a1ae-df66852e6eb8"
+          },
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "68e07462-fbed-4f3c-91f9-4f06b435ae69"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 180.8,
+          "top": 320.8,
+          "zIndex": 2,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "26a70483-49d5-44db-bff4-74c5f3749b06"
+      },
+      {
+        "name": "shopping_cart",
+        "comment": "",
+        "columns": [
+          {
+            "name": "grocery_name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 85.09716796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "d5932583-d188-4d23-8078-7112deca1df3"
+          },
+          {
+            "name": "grocery_price",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 80.75537109375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "760d3690-09f5-4e40-a76a-7f91f8b18103"
+          },
+          {
+            "name": "store_name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 70.64990234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "8f0de547-5de9-437a-ba85-e72be28809c4"
+          },
+          {
+            "name": "store_price",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 66.30810546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "99a31c21-26be-41b1-af17-1fea86ce6bd5"
+          },
+          {
+            "name": "grocery_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 62.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "623d9027-eb1e-4e09-a315-70a1451df6af"
+          },
+          {
+            "name": "store_id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "60005119-1f66-4086-b84b-a69384767866"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 604.4,
+          "top": 727.6,
+          "zIndex": 3,
+          "widthName": 83.6689453125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "4ba406b1-bf32-4282-a428-d755039a34f9"
+      },
+      {
+        "name": "grocery",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "INTEGER",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "23f099c6-3b32-4d04-9142-2cb067a5ccc9"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0496dacc-9a61-4cae-9adb-91dc896fbb92"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 959.6,
+          "top": 323.2,
+          "zIndex": 1,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "ea0394e3-724a-4a8c-ad87-e9eae636f02f"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ea0394e3-724a-4a8c-ad87-e9eae636f02f",
+          "columnIds": [
+            "23f099c6-3b32-4d04-9142-2cb067a5ccc9"
+          ],
+          "x": 959.6,
+          "y": 350.7,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "4ba406b1-bf32-4282-a428-d755039a34f9",
+          "columnIds": [
+            "623d9027-eb1e-4e09-a315-70a1451df6af"
+          ],
+          "x": 790.448583984375,
+          "y": 727.6,
+          "direction": "top"
+        },
+        "constraintName": "fk_grocery_to_shopping_cart",
+        "visible": true,
+        "id": "2330cebf-bb8a-4e8d-869d-f95bb60a33d8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "26a70483-49d5-44db-bff4-74c5f3749b06",
+          "columnIds": [
+            "46bd0324-3381-4605-8f11-379b8fa40009"
+          ],
+          "x": 366.848583984375,
+          "y": 512.8,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "4ba406b1-bf32-4282-a428-d755039a34f9",
+          "columnIds": [
+            "60005119-1f66-4086-b84b-a69384767866"
+          ],
+          "x": 604.4,
+          "y": 823.6,
+          "direction": "left"
+        },
+        "constraintName": "fk_stores_to_shopping_cart",
+        "visible": true,
+        "id": "6e34c63a-4e42-483e-af63-f84507cca6ac"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ea0394e3-724a-4a8c-ad87-e9eae636f02f",
+          "columnIds": [
+            "23f099c6-3b32-4d04-9142-2cb067a5ccc9"
+          ],
+          "x": 959.6,
+          "y": 405.7,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "26a70483-49d5-44db-bff4-74c5f3749b06",
+          "columnIds": [
+            "68e07462-fbed-4f3c-91f9-4f06b435ae69"
+          ],
+          "x": 552.89716796875,
+          "y": 416.8,
+          "direction": "right"
+        },
+        "constraintName": "fk_grocery_to_stores",
+        "visible": true,
+        "id": "a73719a7-6292-466a-90ee-f5231176fe4c"
+      }
+    ]
+  }
+}
